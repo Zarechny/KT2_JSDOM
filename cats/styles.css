@@ -1,0 +1,48 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    text-decoration: black;
+    font-family: Verdana,sans-serif;
+    font-size: 12px;
+}
+
+.catBlock{
+    border: solid black 1px;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    height: fit-content;
+}
+
+.catName{
+    text-align: center;
+    text-decoration: brown;
+    font-family: Verdana,sans-serif;
+    font-size: 18px;
+}
+
+.divImg{
+    position: relative;
+}
+
+.favourite{
+    color: red;
+    position: absolute;
+    top: 10px;
+    left: 220px;
+}
+
+.rating{
+    padding-top: 10px;
+}
+
+.star{
+    color: #c4bc00;
+    padding-left: 5px;
+}
